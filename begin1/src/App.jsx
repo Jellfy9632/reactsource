@@ -16,6 +16,13 @@ import CounterRef from "./CounterRef";
 import InputRef from "./InputRef";
 import UserProfile from "./UserProfile";
 import Form from "./Form";
+import Life from "./Life";
+import FetchBook from "./FetchBook";
+import Reducer from "./Reducer";
+import Memo from "./components/Memo";
+import Average from "./Average";
+import Parent from "./Parent";
+import BookList from "./BookList";
 
 function App() {
   return (
@@ -32,7 +39,14 @@ function App() {
       {/* <MyApp /> */}
       {/* <InputRef /> */}
       {/* <UserProfile /> */}
-      <Form />
+      {/* <Form /> */}
+      {/* <Life /> */}
+      {/* <FetchBook /> */}
+      {/* <Reducer /> */}
+      {/* <Memo /> */}
+      {/* <Average /> */}
+      {/* <Parent /> */}
+      <BookList />
     </>
   );
 }

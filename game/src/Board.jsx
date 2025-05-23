@@ -24,6 +24,14 @@ function calcWinner(squares) {
   //순서변화
 }
 const Board = ({ xIsNext, squares, onPlay }) => {
+  const winner = calcWinner(squares);
+  let status;
+  if (winner) {
+    status = "Winner : " + winner;
+  } else {
+    status = "Next Player : " + (xIsNext ? "X" : "O");
+  }
+
   const handleClick = (idx) => {
     // 원본 배열 복사
     const copySquares = squares.slice();
